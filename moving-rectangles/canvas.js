@@ -99,7 +99,7 @@ const randomRGBA = () => {
 }
 
 let rectangles = []
-for (let n = 0; n < 40; n++) {
+for (let n = 0; n < 20; n++) {
   let w = Math.floor(Math.random() * 300 + 20),
       h = Math.floor(Math.random() * 300 + 20),
       x = Math.abs(Math.floor(Math.random() * canvas.width * 2)),
