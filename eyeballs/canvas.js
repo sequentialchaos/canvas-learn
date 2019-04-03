@@ -4,43 +4,7 @@ canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 
 const ctx = canvas.getContext('2d')
-//
-// Rects
-// ctx.fillStyle = 'rgba(0, 230, 230, 0.3)'
-// ctx.fillRect(120, 150, 400, 30)
-// ctx.fillStyle = 'rgba(0, 100, 230, 0.3)'
 
-// ctx.fillRect(300, 200, 30, 330)
-// ctx.fillStyle = 'rgba(200, 100, 230, 0.3)'
-// ctx.fillRect(180, 100, 220, 130)
-
-// // Lines
-// ctx.beginPath()
-// ctx.moveTo(50, 300)
-// ctx.lineTo(300, 100)
-// ctx.lineTo(400, 400)
-// ctx.strokeStyle = 'magenta'
-// ctx.stroke()
-
-// // Arcs / Circles
-// ctx.beginPath()
-// ctx.arc(400, 500, 30, 0, Math.PI * 2)
-// ctx.strokeStyle = 'green'
-// ctx.stroke()
-
-// // Random circles
-// for (let n = 0; n < 50; n++) {
-//   const r = Math.floor(Math.random() * 100)
-//   const x = Math.floor(Math.random() * (canvas.width - 2*r))
-//   const y = Math.floor(Math.random() * (canvas.height - 2*r))
-//   const a = Math.floor(Math.random() * Math.PI * 2)
-//   ctx.beginPath()
-//   ctx.arc(x, y, r, 0, a)
-//   ctx.fillStyle = 'rgba(30,200,30,0.3)'
-//   ctx.fill()
-// }
-
-// Animate
 const randomRGBA = () => {
   const r = Math.floor(Math.random() * 255)
   const g = Math.floor(Math.random() * 255)
