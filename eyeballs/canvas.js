@@ -4,7 +4,7 @@ canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 
 const ctx = canvas.getContext('2d')
-
+//
 // Rects
 // ctx.fillStyle = 'rgba(0, 230, 230, 0.3)'
 // ctx.fillRect(120, 150, 400, 30)
